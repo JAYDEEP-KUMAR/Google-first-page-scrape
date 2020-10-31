@@ -33,7 +33,7 @@ foreach ($links as $link){
     $title = $html->find('p',2);
 //$image = $html->find('img', 0);
 
-print_r $title->plaintext.'<br><br><br><br>';
+echo $title->plaintext.'<br><br><br><br>';
 # print_r is used to display human-readable information about a variable compared with echo
     
 }
