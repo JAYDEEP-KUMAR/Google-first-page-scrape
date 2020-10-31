@@ -34,6 +34,7 @@ foreach ($links as $link){
 //$image = $html->find('img', 0);
 
 print_r $title->plaintext.'<br><br><br><br>';
+     #pahele echo tha baad me print_r kiya hai
 # print_r is used to display human-readable information about a variable compared with echo
     
 }
